@@ -26,7 +26,6 @@ pipeline
                       }
                       stage ('Deployment Stage') {
                             steps {
-				  sh 'cp ~/.jenkins/workspace/Testingjob1/target/demofinal.war /home/jendemo/sftware/apache-tomcat-9.0.54/webapps
 				  sh '/home/jendemo/sftware/apache-tomcat-9.0.54/bin/startup.sh'
                                   echo "Files Deployed successfully"
                                   }
