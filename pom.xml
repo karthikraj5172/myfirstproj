@@ -3,7 +3,7 @@
 
     <groupId>org.demojk</groupId>
     <artifactId>demojktest</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <version>1.0-snapshot</version>
 
 <name>demo maven webapp</name>
@@ -18,6 +18,6 @@
 	</dependencies>
 
     <build>
-	<finalName>demofinal</finalName>
+	<finalName>sampleproj</finalName>
     </build>
 </project>
