@@ -20,7 +20,7 @@ pipeline
                             steps {                       
                                   sh 'echo Build process started'
                                   sh 'mvn --version'
-                                  sh 'mvn clean install'
+                                  sh 'sudo mvn clean install'
                                   sh 'echo Build Completed'
                             }
                       }
